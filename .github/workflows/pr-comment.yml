@@ -1,7 +1,6 @@
 name: Jest Coverage comment with coverage diff
 on:
   push:
-  workflow
   
 jobs:
   coverage-diff-comment:

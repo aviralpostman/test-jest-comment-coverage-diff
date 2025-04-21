@@ -1,0 +1,1 @@
+# test-jest-comment-coverage-diff

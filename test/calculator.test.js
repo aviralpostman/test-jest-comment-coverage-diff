@@ -43,4 +43,11 @@ describe('Calculator', () => {
             expect(() => calculator.divide(5, 0)).to.throw('Division by zero is not allowed');
         });
     });
+
+    describe('square()', () => {
+        it('should square a number correctly', () => {
+            expect(calculator.square(3)).to.equal(9);
+            expect(calculator.square(-4)).to.equal(16);
+        });
+    });
 }); 

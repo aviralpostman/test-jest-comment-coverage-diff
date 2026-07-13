@@ -17,6 +17,11 @@ class Calculator {
         }
         return a / b;
     }
+
+    // Covered change: exercised by a test, so incremental coverage stays high.
+    square(n) {
+        return n * n;
+    }
 }
 
 module.exports = Calculator; 

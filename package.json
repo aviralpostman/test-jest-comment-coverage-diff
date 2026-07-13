@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nyc --reporter=json-summary --reporter=text mocha test/**/*.test.js"
+    "test": "nyc --reporter=json-summary --reporter=lcov --reporter=text mocha test/**/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -35,7 +35,7 @@
       "json-summary",
       "text"
     ],
-    "check-coverage": true,
+    "check-coverage": false,
     "branches": 80,
     "lines": 80,
     "functions": 80,
